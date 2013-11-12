@@ -18,7 +18,9 @@ get_header(); ?>
 						<h2 class="post-title">
             						<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'swatch-td' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
         					</h2>
-
+				
+				<span class="alignright"><?php echo pods_image (get_post_meta($post->ID, 'logo', true), 'medium'); ?></span>
+				
 				<?php the_content(); ?>
 
 				<p><?php echo get_post_meta($post->ID, 'contact', true); ?><?php $role = get_post_meta( $post->ID, 'role', true );
