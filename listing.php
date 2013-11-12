@@ -21,12 +21,10 @@ get_header(); ?>
             						</a>
         					</h2>
 
-				<p><?php echo get_post_meta($post->ID, 'contact', true); ?>
-				<?php 
-				$role = get_post_meta( $post->ID, 'role', true );
-				if( $role != '') {
-				  echo ", $role";
-				} 
+				<p><?php echo get_post_meta($post->ID, 'contact', true); ?><?php $role = get_post_meta( $post->ID, 'role', true );
+					if( $role != '') {
+					  echo ", $role";
+					} 
 				?><br />
 				
 				<?php 
