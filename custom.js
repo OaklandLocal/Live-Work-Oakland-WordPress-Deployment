@@ -42,9 +42,14 @@
 	stylers: [ { visibility: "simplified" }, { saturation: -100 } ] 
 	},{ 
 
+	featureType: "road", 
+	 elementType: "labels", 
+	stylers: [ {visibility: "on" }, { hue: "#00ffe6" } ] 
+	},{ 
+	
 	 featureType: "transit", 
 	elementType: "all", 
-	stylers: [ { visibility: "simplified" }, { saturation: -100 } ] 
+	stylers: [ { visibility: "on" }, { saturation: -100 } ] 
 	 },{ 
 	featureType: "water", 
 	elementType: "all", 
