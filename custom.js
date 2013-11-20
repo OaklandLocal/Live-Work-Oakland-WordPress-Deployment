@@ -14,7 +14,7 @@
 	GeoMashup.addAction( 'multiObjectMarker', function( properties, marker ) {
 	
 		// When there is more than one marker assigned to the same location - mm_20_plus.png
-		marker.setIcon( properties.custom_url_path + '/images/mm_20_plus.png' );
+		marker.setIcon( properties.custom_url_path + '/images/multi.png' );
 
 	} );
 
