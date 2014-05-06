@@ -1,0 +1,118 @@
+0.8     - (10 Sep 2013)
+        - initial release
+
+1.01    -  (10 Sep 2013)
+        - themeforest reviewer fixes
+
+1.02    - (11 Sep 2013)
+        - fixed notice in content partials
+        - fixed bug when no search results found
+        - fixed import bug in revolution slider data
+        - remove title from quote post
+
+1.03    - (12 Sep 2013)
+        - Changed metabox option name from 'No Link' to 'Default Link'
+        - Fixed issue on .brand positioning
+        - added blog subtitle option
+
+1.1     - (14 Sep 2013)
+        - Styled table captions
+        - Styled calendar widget and assigned a swatch on calendar widgets
+        - Added calendar styling
+        - Re styled search results page
+        - Added more contrast in links on color swatches
+        - Added option for a no-menu header page
+        - Added support for ie8
+        - Added full width portfolio template
+        - Portfolio items can now link to internal / external url
+        - Added social links to posts
+        - bug fix for recent post shortcode ( categories now work ok )
+
+1.1.1   - (21st Sep 2013)
+        - Fixed issue on contrast for social icons
+        - Fixed bug in combo bar for dropdown swatch colors
+        - Updated docs
+        - Fixed / Static option only shows for standard menu
+        - Fixed lead shortcode
+        - Fixed Comments Closed styling
+        - Added Portfolio Description Title option to portfolio pages
+        - Updated all Option Page descriptions
+        - Update to Oxygenna Theme Plugin 1.1
+        - Added id option to Sections
+        - Updated flexslider options
+        - Better descriptions for all metabox options
+
+1.2     - (2nd Oct 13)
+        - Hide motto text and title from staff if empty
+        - Envato Wordpress Toolkit now bundled with the theme
+        - Bundled WooSidebars with the theme plugins
+        - updated plugins to remove notice error
+        - fix double notice from theme plugins installer in option pages
+        - added default post swatch option
+        - staff social icons can now use all FA icons
+        - fixed bug in typography plugin
+
+1.3     - (9th Oct 13)
+        - Added WooCommerce support and styling
+        - Added styling for basic wordpress classes
+        - Added pagination option in portfolio shortcode
+        - Fixed bug in WPML translation of shortcodes
+        - Added option to hide blog header
+        - Added option for testimonial images
+        - Multiple Maps on the same page now works
+        - Custom Swatch bug fixes
+        - WPML Option Translations added
+        - Added extra widget position next to menu
+
+1.3.1   - (11th Oct 13)
+        - bug fix for swatch creator
+        - bug fix for gallery posts inside masonry recent posts
+
+1.3.2   - (28th Oct 2013)
+        - Fixed bug in IOS7 for portfolios
+        - Fixed bug in flexslider on IE8
+        - Fixed bug in swatch editor (saving old swatches)
+
+1.3.3   - (30th Oct 2013)
+        - Fixed bug in flexslider (testimonials & clients)
+
+1.3.4   - (4th Nov 2013)
+        - Fixed bug in Wordpress 3.7.1 in oxygenna plugins
+
+1.4     - (22 Nov 2013)
+        - Added 2 column services
+        - Fixed issue with background fixed images in sections
+        - Fixed placeholders in internet explorer
+        - Added no link option in portfolio items
+        - Update revolution slider
+        - Fix bug in icon shortcode generator
+        - Update theme plugin
+        - Fix load order of css stylesheets
+
+1.5     - ( 20th Jan 2014 )
+        - Added Layer Slider Slideshow plugin
+        - Added Image Backgrounds
+        - Added Video Background
+        - Added Parallax image backgrounds
+        - No link option to services now works
+        - Fixed bug in saving testimonial citation
+        - Fix translations in next / previous buttons
+        - Missing translation "all" in portfolio filters
+        - Fix portfolio items in category links
+        - fix conflict with woocommerce plugin
+        - next & previous portfolio popovers now translatable
+        - Missing translation "all" in portfolio filters
+        - Removed social links from content-page
+        - Restyled single blog social icons
+
+1.5.1   - ( 22nd April 2014 )
+        - Flexslider triggers relayout if inside a masonry container in case of different sized images
+        - More option in portfolio shortcode (links, overlay, excerpt)
+        - Fix for translation of comments
+        - Fix for portfolio related items
+        - Fix hover menu for mobild devices
+        - Added webm option for video backgrounds
+        - New versions of oxygenna-theme and oxygenna-boots plugins ( fixes WP 3.9 shortcode generator issues )
+
+1.5.2   - ( 29th April 2014 )
+        - Fix for typography plugin adding fonts in WP 3.9

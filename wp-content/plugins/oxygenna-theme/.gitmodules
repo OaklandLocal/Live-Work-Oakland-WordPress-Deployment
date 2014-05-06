@@ -1,0 +1,3 @@
+[submodule "plugin-builder"]
+	path = plugin-builder
+	url = git@bitbucket.org:oxygenna/plugin-builder.git

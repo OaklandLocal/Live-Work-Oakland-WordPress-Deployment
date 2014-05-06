@@ -1,0 +1,29 @@
+.metabox-table {
+    width: 100%;
+}
+
+.tooltip-column {
+    text-align: right;
+}
+.iris-picker .iris-slider-offset {
+  left: 0;
+  right: 0;
+  bottom: -3px;
+  top: 0 !important;
+  width: 98% !important;
+  height: 99% !important;
+  background: transparent !important;
+}
+
+// hack to fix scroll to top until this ticket is resolved
+// http://core.trac.wordpress.org/ticket/23684
+
+.screen-reader-text,.screen-reader-text span,.ui-helper-hidden-accessible {
+    position:fixed;
+    left:1em;
+    top:1em;
+    height:1px;
+    width:1px;
+    overflow:hidden;
+    display:none;
+}

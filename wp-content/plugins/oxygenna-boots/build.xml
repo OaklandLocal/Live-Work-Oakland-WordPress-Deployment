@@ -1,0 +1,7 @@
+<project>
+    <property file="build.properties" />
+    <import file="plugin-builder/build-plugin.xml"/>
+    <import file="plugin-builder/build-release.xml"/>
+    <import file="plugin-builder/build-s3.xml"/>
+    <import file="plugin-builder/build-theme.xml"/>
+</project>

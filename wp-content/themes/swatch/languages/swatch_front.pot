@@ -1,0 +1,254 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR (c) 2013 Oxygenna.com
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Swatch Frontend Translation File 1.5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-29 09:55+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: build/archive.php:15
+msgid "Day"
+msgstr ""
+
+#: build/archive.php:19
+msgid "Month"
+msgstr ""
+
+#: build/archive.php:23
+msgid "Year"
+msgstr ""
+
+#: build/archive.php:27
+msgid "Blog"
+msgstr ""
+
+#: build/comments.php:31
+msgid "&larr; Older"
+msgstr ""
+
+#: build/comments.php:32
+msgid "Newer &rarr;"
+msgstr ""
+
+#: build/comments.php:43
+msgid "Comments are closed."
+msgstr ""
+
+#: build/inc/frontend.php:102
+msgid "Primary Navigation"
+msgstr ""
+
+#: build/inc/frontend.php:103
+msgid "Account Navigation"
+msgstr ""
+
+#: build/inc/frontend.php:300
+msgid "Pingback:"
+msgstr ""
+
+#: build/inc/frontend.php:300
+msgid "(Edit)"
+msgstr ""
+
+#: build/inc/frontend.php:321
+msgid "Reply"
+msgstr ""
+
+#: build/inc/frontend.php:377
+msgid "YOUR NAME *"
+msgstr ""
+
+#: build/inc/frontend.php:378
+msgid "YOUR EMAIL *"
+msgstr ""
+
+#: build/inc/frontend.php:382
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: build/inc/frontend.php:385
+msgid "YOUR MESSAGE"
+msgstr ""
+
+#: build/inc/frontend.php:386
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: build/inc/frontend.php:387
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: build/inc/frontend.php:393
+msgid "Add your comment"
+msgstr ""
+
+#: build/inc/frontend.php:394
+msgid "Leave a Reply"
+msgstr ""
+
+#: build/inc/frontend.php:395
+msgid "Cancel reply"
+msgstr ""
+
+#: build/inc/frontend.php:396
+msgid "Add comment"
+msgstr ""
+
+#: build/inc/frontend.php:1125
+msgid "SEARCH"
+msgstr ""
+
+#: build/inc/frontend.php:1149
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: build/inc/frontend.php:1150
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: build/inc/frontend.php:1216
+msgid "Next page"
+msgstr ""
+
+#: build/inc/frontend.php:1217
+msgid "Previous page"
+msgstr ""
+
+#: build/inc/frontend.php:1329
+#, php-format
+msgid "Search Results: &ldquo;%s&rdquo;"
+msgstr ""
+
+#: build/inc/frontend.php:1331
+#, php-format
+msgid "&nbsp;&ndash; Page %s"
+msgstr ""
+
+#: build/inc/options/shortcodes/shortcodes.php:599
+msgid "all"
+msgstr ""
+
+#: build/inc/options/widgets/default_overrides.php:23
+msgid "Recent Posts"
+msgstr ""
+
+#: build/inc/options/widgets/default_overrides.php:82
+msgid "Archives"
+msgstr ""
+
+#: build/inc/options/widgets/default_overrides.php:90
+msgid "Select Month"
+msgstr ""
+
+#: build/inc/options/widgets/swatch_twitter.php:20
+msgid "Displays you latest tweets"
+msgstr ""
+
+#: build/inc/options/widgets/swatch_twitter.php:21
+msgid "Twitter Feed"
+msgstr ""
+
+#: build/inc/options/widgets/swatch_twitter.php:30
+#, php-format
+msgid ""
+"Please configure your Twitter username for the <a href=\"%s\">Twitter "
+"Widget</a>."
+msgstr ""
+
+#: build/partials/content-account.php:26
+msgid "create an account menu in the admin options"
+msgstr ""
+
+#: build/partials/content-audio.php:44 build/partials/content-gallery.php:63
+#: build/partials/content-link.php:47 build/partials/content-search.php:34
+#: build/partials/content-video.php:51 build/partials/content.php:36
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: build/partials/content-portfolio-single.php:64
+msgid "Previous"
+msgstr ""
+
+#: build/partials/content-portfolio-single.php:69
+msgid "Next"
+msgstr ""
+
+#: build/partials/content-search.php:39
+msgid "by "
+msgstr ""
+
+#: build/partials/content-search.php:45
+msgid "on "
+msgstr ""
+
+#: build/partials/loop.php:41
+msgid "Nothing Found"
+msgstr ""
+
+#: build/partials/loop.php:47
+msgid "Sorry, no posts were found for this category."
+msgstr ""
+
+#: build/partials/loop.php:50
+msgid "Sorry, no posts found in that timeframe"
+msgstr ""
+
+#: build/partials/loop.php:53
+msgid "Sorry, no posts from that author were found"
+msgstr ""
+
+#: build/partials/loop.php:56
+#, php-format
+msgid "Sorry, no posts were tagged with  \"%1$s\""
+msgstr ""
+
+#: build/partials/loop.php:59
+#, php-format
+msgid "Sorry, no search results were found for  \"%1$s\""
+msgstr ""
+
+#: build/partials/loop.php:62
+msgid "Sorry, nothing found"
+msgstr ""
+
+#: build/partials/post-extras.php:33
+msgid "No comments"
+msgstr ""
+
+#: build/partials/post-extras.php:33
+msgid "1 comment"
+msgstr ""
+
+#: build/partials/post-extras.php:33
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: build/partials/post-related.php:41
+msgid "Related Posts"
+msgstr ""
+
+#: build/search.php:15
+msgid "Search"
+msgstr ""
+
+#: build/tag.php:15
+msgid "Tag"
+msgstr ""

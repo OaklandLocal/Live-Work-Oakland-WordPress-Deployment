@@ -1,0 +1,7 @@
+body {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 400;
+}
+body input, body textarea, body .btn, body button {
+  font-family: "proxima-nova", sans-serif;
+}
