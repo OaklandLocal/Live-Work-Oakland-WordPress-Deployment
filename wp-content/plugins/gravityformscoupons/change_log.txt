@@ -1,0 +1,10 @@
+---------------------------------------------------------------------
+Version 1.0
+	- Fixed issue with applying fixed amount coupon code with currencies other than US dollar
+    - Fixed issue where changing an existing coupon from being form specific to 'any form' resulted in an 'Invalid coupon.' message on any form other than the original.	
+	
+---------------------------------------------------------------------
+Version 1.0.beta1.1
+	- Added POT file
+	
+---------------------------------------------------------------------
