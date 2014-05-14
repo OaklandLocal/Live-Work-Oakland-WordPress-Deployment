@@ -3,6 +3,7 @@ This is the [WordPress deployment repo](https://allthecod.es/live-work-oakland/l
 
 * [WordPress Plugins - Base](https://allthecod.es/webcraft/wp-plugins-base)
 * [WordPress Plugins - Creepy](https://allthecod.es/webcraft/wp-plugins-creepy)
+* [WordPress Plugins - Membership](https://allthecod.es/webcraft/wp-plugins-membership)
 * [WordPress Themes - Base](https://allthecod.es/webcraft/wp-themes-base)
 * [Oxygenna](https://allthecod.es/live-work-oakland/oxygenna)
 * [Owly](https://allthecod.es/live-work-oakland/owly)
