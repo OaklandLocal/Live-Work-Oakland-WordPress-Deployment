@@ -3,7 +3,7 @@
 Plugin Name: Gravity Forms: Post Updates
 Plugin URI: http://bitbucket.org/jupitercow/gravity-forms-update-post
 Description: Allow Gravity Forms to update post Content and the meta data associated with it. Based off the original version by Kevin Miller, this version removed delete functionality, fixed a few bugs, and adds support for file uploads.
-Version: 1.2.3
+Version: 1.2.4
 Author: Jake Snyder
 Author URI: http://Jupitercow.com/
 Contributer: p51labs
@@ -436,7 +436,8 @@ class gform_update_post
 			'post_id' => false,
 			'url'     => false,
 			'text'    => __("Edit Post", self::PREFIX),
-			'title'   => false
+			'title'   => false,
+			'class'   => '',
 		);
 		$args = wp_parse_args( $args, $defaults );
 
@@ -448,7 +449,7 @@ class gform_update_post
 			// Add the link text to the title if no link title is specified
 			if (! $args['title'] ) $args['title'] = $args['text'];
 	
-			echo '<a class="' . esc_attr(self::PREFIX) . '_link" href="' . esc_attr(self::edit_url($args['post_id'], $args['url'])) . '" title="' . esc_attr($args['title']) . '">' . esc_html($args['text']) . '</a>';
+			echo '<a class="' . esc_attr(self::PREFIX) . '_link' . ($args['class'] ? ' ' . esc_attr($args['class']) : '') . '" href="' . esc_attr(self::edit_url($args['post_id'], $args['url'])) . '" title="' . esc_attr($args['title']) . '">' . esc_html($args['text']) . '</a>';
 		}
 	}
 
